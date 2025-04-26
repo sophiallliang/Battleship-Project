@@ -1,0 +1,27 @@
+.home-container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(32, 147, 255);
+}
+
+.link:hover {
+    color: rgb(135, 197, 255);
+}
+
+.link:active {
+    text-decoration: none;
+    color: rgb(32, 110, 255);
+}
+
+.link-row {
+    margin-top: .5rem;
+}

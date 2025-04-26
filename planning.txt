@@ -1,0 +1,18 @@
+Database:
+    User:
+        username: string, unique, required
+        password: string, required
+        email: string | null
+    
+    Game:
+        name: string, required
+        player_c: _id, required // creator
+        player_j: _id | null // joiner
+        board_c: string, required // length 100 string, each position represent a board state.
+        // 0->no ship, 1->has ship, 2->no ship, bombarded, 3->has ship, boombarded
+        board_j: string, required 
+        
+    Score:
+        user: _id, unique, required
+        wins: number, required
+        losses: number, required

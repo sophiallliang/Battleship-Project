@@ -1,0 +1,29 @@
+.cell-container {
+    width: fit-content;
+    box-sizing: border-box;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.cell {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border: solid 2px gray;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (width < 540px) {
+    .cell {
+        width: 23px;
+        height: 23px;
+    }
+
+    .cell-container {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}

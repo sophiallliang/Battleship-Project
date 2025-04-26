@@ -1,0 +1,28 @@
+.profile-status {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 191, 254);
+    height: 100%;
+    gap: .8rem;
+    position: relative;
+}
+
+.profile-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 1px solid rgb(194, 194, 194);
+    width: 100%;
+}
+
+.profile-dropdown-item {
+    background-color: rgb(255, 255, 255);
+    padding: .6rem;
+    cursor: pointer;
+}
+
+.profile-dropdown-item:hover {
+    background-color: rgb(231, 231, 231);
+}

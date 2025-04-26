@@ -1,0 +1,15 @@
+.nb-button {
+    all: unset;
+    color: white;
+    padding: 0.3rem .6rem;
+    font-size: 0.8rem;
+    border-radius: 1rem;
+}
+
+.nb-button:hover {
+    cursor: pointer;
+} 
+
+.nb-button:active {
+    outline: solid .2rem rgb(226, 226, 226);
+}

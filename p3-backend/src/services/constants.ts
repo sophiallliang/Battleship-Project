@@ -1,0 +1,1 @@
+export const PWD_HASH_SALT_ROUNDS = 5;

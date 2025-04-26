@@ -1,0 +1,9 @@
+export const HOST = "http://localhost:8000";
+export const SIGNIN_ENDPOINT = "/api/signin";
+export const SIGNUP_ENDPOINT = "/api/signup";
+export const GETSCORE_ENDPOINT = "/api/scores"
+export const CREATEGAME_ENDPOINT = "/api/create_game";
+export const JOINGAME_ENDPOINT = "/api/join_game";
+export const GAMEACTION_ENDPOINT = "/api/game_action";
+export const GETGAMESTATE_ENDPOINT = "/api/game_state";
+export const GETALLGAMEINFO_ENDPOINT = "/api/all_game_info";
