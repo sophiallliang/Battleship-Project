@@ -1,4 +1,4 @@
-export const HOST = "http://localhost:8000";
+export const HOST = process.env.API_HOST || "http://localhost:8000";
 export const SIGNIN_ENDPOINT = "/api/signin";
 export const SIGNUP_ENDPOINT = "/api/signup";
 export const GETSCORE_ENDPOINT = "/api/scores"
